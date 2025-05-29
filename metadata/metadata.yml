@@ -1,0 +1,34 @@
+metadata_version: 1
+name: IEEE OJSP - Federated Learning with Automated Dual-Level Hyperparameter Tuning
+  (FLAUTO)
+description: FLAUTO is a federated learning method that performs automated hyperparameter
+  tuning at both the server and client levels. It dynamically adjusts the global learning
+  rate based on validation loss and locally tunes each client's batch size and number
+  of epochs using model deviation metrics. This dual-level approach accelerates convergence,
+  reduces communication and energy costs, and eliminates the need for manual hyperparameter
+  initialization. FLAUTO is compatible with various optimizers and aggregation methods
+  and consistently outperforms state-of-the-art baselines across diverse datasets
+  and settings.
+tags:
+- Federated Learning
+- Machine Learning
+- Optimization
+- SGD
+- Adam
+- YOLO
+- Image Classification
+- Object Detection
+- YOLOv8
+- Small Object Detection
+- DOTAv2
+- CIFAR-10
+authors:
+- name: Panagiotis Markopoulos
+  affiliations:
+  - name: The University of Texas at San Antonio
+- name: Rakib Ul Haque
+  affiliations:
+  - name: The University of Texas at San Antonio
+corresponding_contributor:
+  name: Panagiotis Markopoulos
+  email: panagiotis.markopoulos@utsa.edu
